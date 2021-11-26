@@ -1,0 +1,30 @@
+.form-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+input {
+    height: 50px;
+    font-size: 1.5rem;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    background: black;
+    border: none;
+    color: white;
+    cursor:pointer;
+}
+
+button {
+    height: 50px;
+    font-size: 1.4rem;
+    background: transparent;
+    cursor: pointer;
+}

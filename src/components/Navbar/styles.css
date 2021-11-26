@@ -1,0 +1,38 @@
+.navbar ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+  }
+  .navbar {
+    background: coral;
+    box-shadow: 0 3px 3px -1px rgba(0,0,0,.2);
+    font-size: 1.5rem;
+  }
+  .navbar li {
+    margin: 1rem;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    font-weight: 450;
+  }
+  .navbar a.nav-selected {
+    font-weight: 700;
+    color: rgb(14, 14, 14);
+  }
+  .navbar a:hover {
+    color: black;
+    font-weight: 600;
+  }
+  .navbar-user {
+    font-size: 0.8rem;
+  }
+  @media only screen and (min-width: 600px) {
+    .navbar ul {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      justify-content: flex-end;
+    }
+  }

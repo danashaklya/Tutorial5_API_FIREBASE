@@ -1,0 +1,41 @@
+button:disabled {
+    opacity: 0.2;
+}
+
+button:disabled:hover {
+    opacity: 0.2;
+    cursor: default;
+}
+
+.primary {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color:rgb(141, 9, 71);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.secondary {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: #000;
+    background-color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 1rem;
+    font-weight: bold;
+    border: black 1px solid;
+}
+.secondary:hover, .primary:hover {
+    opacity: 0.8;
+}
