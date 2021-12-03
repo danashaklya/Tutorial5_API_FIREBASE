@@ -9,6 +9,7 @@ import { PetsHomePage } from './components/pages/PetsHomePage';
 import { ShoppingCartPage } from './components/pages/ShoppingCartPage';
 import { PetDetailsPage} from './components/pages/PetDetailsPage';
 import {LoginPage} from './components/pages/LoginPage';
+import {NewPetPage} from './components/pages/NewPetPage/index';
 
 function App() {
   return (
@@ -24,8 +25,11 @@ function App() {
         <Route path="/pet/:id">
           <PetDetailsPage/>
         </Route>
-        <Route path="/login">
+        <Route path='/login'>
             <LoginPage />
+        </Route>
+        <Route path='/new'>
+            <NewPetPage />
         </Route>
       </Switch>
     </Router>
